@@ -2,7 +2,7 @@
 
 -  通用办法,元素的宽高未知
 
-方法一:CSS3 transform
+   方法一:CSS3 transform
 ```
 .parent {
     position: relative;
@@ -14,7 +14,7 @@
 }
 ```
 
-方法二:Flex 布局
+    方法二:Flex 布局
 ```
 .parent {
     display: flex;
@@ -22,11 +22,11 @@
 }
 ```
 
-适用于子元素为浮动，绝对定位，内联元素，均可水平居中。
+    适用于子元素为浮动，绝对定位，内联元素，均可水平居中。
 
 -  居中的元素为常规文档流中的内联元素(display: inline)
 
-常见的内联元素有：span, a, img, input, label 等等
+    常见的内联元素有：span, a, img, input, label 等等
 
 ```
 .parent {
@@ -34,13 +34,13 @@
 }
 ```
 
-此方法同样适用于 display: inline-block 的元素。
+    此方法同样适用于 display: inline-block 的元素。
 
 -  居中的元素为常规文档流中的块元素(display: block)
 
-常见的块元素：div, h1~h6, table, p, ul, li 等等
+    常见的块元素：div, h1~h6, table, p, ul, li 等等
 
-方式一：设置 margin
+    方式一：设置 margin
 
 ```
 .parent {
@@ -54,9 +54,9 @@
 }
 ```
 
-此方法只能进行水平的居中，且对浮动元素或绝对定位元素无效。
+    此方法只能进行水平的居中，且对浮动元素或绝对定位元素无效。
 
-方式二：修改为 inline-block 属性
+    方式二：修改为 inline-block 属性
 
 ```
 .parent {
@@ -81,7 +81,7 @@
 
 -  居中的元素为绝对定位元素
 
-方式一:
+    方式一:
 
 ```
 .parent {
@@ -95,7 +95,7 @@
 }
 ```
 
-方式二:
+    方式二:
 
 ```
 .parent {
