@@ -3,14 +3,27 @@
 -  通用办法,元素的宽高未知
 
 方法一:CSS3 transform
+
+	Html部分
+```
+<div class="parent">
+		<span class="child">hello world</span>
+	</div>
+```
+```
+<div class="parent">
+		<div class="child">hello world</div>
+	</div>
+```
+	CSS部分
 ```
 .parent {
     position: relative;
 }
 .child {
     position: absolute;
-    left: 50%:
-    transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
 }
 ```
 
