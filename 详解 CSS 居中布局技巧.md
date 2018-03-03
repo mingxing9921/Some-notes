@@ -156,15 +156,19 @@
     transform: translateY(-50%);
 }
 ```
-> 父级给出需要高度
+
+
 方式二：Flex 布局
 
 ```
 .parent {
+	height:400px;
     display: flex;
     align-items: center;
 }
 ```
+>  此方法父级给出需要高度
+
 适用于子元素为浮动，绝对定位，内联元素，均可垂直居中。
 
 -  居中元素为单行文本
@@ -184,6 +188,7 @@
 ```
 .parent {
     position: relative;
+	height:1000px;
 }
 .child{
     position: absolute;
@@ -197,6 +202,7 @@
 ```
 .parent {
     position: relative;
+	height:1000px;
 }
 .child{
     position: absolute;
@@ -206,6 +212,7 @@
     margin: auto 0;
 }
 ```
+>  此方法父级给出需要高度
 
 ## 水平垂直居中元素
 
@@ -270,6 +277,7 @@ div {
 
 ```
 .parent {
+	height:1000px;
     display: flex;
     justify-content: center;
     align-items: center;
