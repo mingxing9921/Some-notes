@@ -5,13 +5,13 @@
   Html部分
 ```
 <div class="parent">
-		<span class="child">hello world</span>
-	</div>
+	<span class="child">hello world</span>
+</div>
 ```
 ```
 <div class="parent">
-		<div class="child">hello world</div>
-	</div>
+	<div class="child">hello world</div>
+</div>
 ```
 
 方法一:CSS3 transform
@@ -42,6 +42,13 @@
 -  居中的元素为常规文档流中的内联元素(display: inline)
 
     常见的内联元素有：span, a, img, input, label 等等
+	
+  Html部分
+```
+<div class="parent">
+	<span class="child">hello world</span>
+</div>
+```
 
 ```
 .parent {
@@ -54,6 +61,13 @@
 -  居中的元素为常规文档流中的块元素(display: block)
 
 常见的块元素：div, h1~h6, table, p, ul, li 等等
+
+  Html部分
+```
+<div class="parent">
+	<div class="child">hello world</div>
+</div>
+```
 
 方式一：设置 margin
 
