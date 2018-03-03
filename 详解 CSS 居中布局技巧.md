@@ -148,6 +148,7 @@
 ```
 .parent {
     position: relative;
+    height:1000px;
 }
 .child {
     position: absolute;
@@ -155,7 +156,7 @@
     transform: translateY(-50%);
 }
 ```
-
+> 父级给出需要高度
 方式二：Flex 布局
 
 ```
