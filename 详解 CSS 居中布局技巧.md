@@ -2,9 +2,7 @@
 
 -  通用办法,元素的宽高未知
 
-方法一:CSS3 transform
-
-	Html部分
+  Html部分
 ```
 <div class="parent">
 		<span class="child">hello world</span>
@@ -15,7 +13,9 @@
 		<div class="child">hello world</div>
 	</div>
 ```
-	CSS部分
+
+方法一:CSS3 transform
+
 ```
 .parent {
     position: relative;
